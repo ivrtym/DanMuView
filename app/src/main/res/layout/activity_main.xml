@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tanwuyu.ivrtym.danmutest.MainActivity"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.tanwuyu.ivrtym.danmutest.DanMuView
+                android:background="#6c6c6c"
+                android:id="@+id/danmu_container"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+            <Button
+                android:id="@+id/btn"
+                android:text="生成随机弹幕"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn2"
+                android:text="生成随机弹幕*5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn3"
+                android:text="生成随机弹幕*2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="开始模拟视频弹幕"
+                android:id="@+id/btn_auto_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="结束模拟视频弹幕"
+                android:id="@+id/btn_auto_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
